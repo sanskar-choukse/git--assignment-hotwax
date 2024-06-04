@@ -1,0 +1,19 @@
+1.Definition and Importance of Version Control Systems (VCS)
+
+Q.Explain what a VCS is.
+ANS.A Version Control System (VCS) is a tool that helps manage changes to source code over time by keeping track of modifications, enabling collaboration, and maintaining a history of revisions.
+
+Q.Discuss why VCS is essential in software development.
+ANS.A VCS is essential in software development because it facilitates collaboration, maintains a comprehensive history of changes, and enables efficient tracking, merging, and rollback of code.
+
+2.Introduction to Git
+
+Q.Describe what Git is and its main features.
+ANS.Git is a distributed version control system that tracks changes in source code during software development, featuring branching and merging, distributed repositories, and efficient handling of large projects.
+
+Q.Compare Git with other version control systems (e.g., Subversion, Mercurial).
+ANS.Git, Subversion (SVN), and Mercurial are version control systems:
+
+1.Git: Distributed, fast, flexible branching/merging, steeper learning curve, most popular.
+2.SVN: Centralized, easier to learn, slower branching/merging, still used in enterprises.
+3.Mercurial: Distributed, user-friendly, good performance, smaller community than Git.
