@@ -1,0 +1,37 @@
+1.Creating a Git Repository
+
+Q.How to initialize a new Git repository.
+ANS.git init
+
+Q.How to clone an existing repository.
+ANS.git clone <repository_url>
+
+Q.Assignment: Create a new repository named my-first-repo and initialize it.
+ANS.Create a new directory:mkdir my-first-repo
+       Navigate to the new directory:cd my-first-repo
+      Initialize the directory as a Git repository:git init
+
+2.Repository Structure
+
+Q.Explain the directory structure of a Git repository.
+ANS.1.git: Contains all repository metadata and history.
+         hooks: Stores client or server-side scripts triggered by specific Git events.
+         info: Holds additional repository metadata.
+         logs: Contains logs of changes to references.
+         objects: Stores all content objects (blobs, trees, commits, tags).
+         refs: Contains references to branches, tags, and remote references.
+         heads: Stores local branches.
+         tags: Holds tags.
+         remotes: Contains remote tracking branches.
+         config: Configuration settings for the repository.
+         description: A brief description of the repository.
+         index: Staging area information.
+         packed-refs: Packed reference files for efficiency.
+
+2.Working Directory: Holds the current state of the files you're working on.
+
+3. Staging Area (Index): Acts as a snapshot of the next commit, staging changes before committing.
+
+Q.Assignment: Clone an existing repository from GitHub and explore its structure.
+ANS: Clone an existing repository from GitHub and explore its structure.
+     git clone https://github.com/sanskar-choukse/git--assignment-hotwax.git
