@@ -1,0 +1,14 @@
+Stages of a File
+
+1.Working Directory, Staging Area, and Repository
+
+Q.Explain the three stages of a file in Git.
+ANS.In Git, files progress through three stages:
+
+1.Modified: Files that have been changed since the last commit.
+2.Staged: Modified files that have been marked to be included in the next commit using `git add`.
+3.Committed: Staged files that have been permanently saved to the Git repository with `git commit`.
+
+Q.Assignment: Make changes to a file, add it to the staging area, and then commit it.
+ANS.git add filename
+    git commit -m "Your commit message here"
