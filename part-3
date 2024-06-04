@@ -1,0 +1,8 @@
+Configuration
+
+1.Setting Up Git
+Q.Assignment: Configure your Git environment with your name and email.
+
+git config user.name"sanskarchoukse"
+git config user.email "sanskarchoukse468@gmail.com"
+git config --list
