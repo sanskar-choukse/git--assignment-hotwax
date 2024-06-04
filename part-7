@@ -1,0 +1,11 @@
+Branching
+1.Creating and Managing Branches
+
+Q.Explain the concept of branches in Git.
+ANS:Branches in Git are parallel lines of development that diverge from the main line (usually called "master" or "main") to work on different features or fixes, allowing for isolated changes without affecting the main codebase, and can be merged back when ready.
+
+Q.How to create, list, and switch branches.
+ANS:To create a branch: `git branch branch_name`, to list branches: `git branch`, to switch branches: `git checkout branch_name`.
+
+Q.Assignment: Create a new branch, switch to it, and make some commits.
+ANS:Create a new branch: `git branch new_branch_name`, switch to it: `git checkout new_branch_name`, make commits: edit files and use `git add` and `git commit`.
