@@ -1,0 +1,12 @@
+ Merge Conflicts
+
+1.Understanding and Resolving Merge Conflicts
+
+Q.Explain what merge conflicts are and why they occur.
+Ans:Merge conflicts occur when changes from different branches cannot be automatically reconciled by the version control system, typically due to simultaneous or overlapping modifications to the same lines of code.
+
+Q.How to resolve merge conflicts.
+Ans:To resolve merge conflicts, manually edit the conflicting files to merge changes, remove conflict markers, test the code, then add and commit the resolved files.
+
+Q.Assignment: Create a merge conflict scenario and resolve it.
+Ans:Create a merge conflict by having two branches modify the same lines, then resolve it by manually editing the file to integrate both changes, removing conflict markers, and committing the resolved file.
