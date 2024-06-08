@@ -1,0 +1,12 @@
+Remote
+
+1.Working with Remote Repositories
+
+Q.Explain what remote repositories are.
+Ans:Remote repositories are versions of your project hosted on the internet or another network, enabling collaboration and centralized storage.
+
+Q.How to add, fetch, pull, and push to remotes.
+Ans:Use `git remote add origin <url>`, `git fetch origin`, `git pull origin <branch>`, and `git push origin <branch>`.
+
+Q.Assignment: Add a remote to your local repository and push your changes.
+Ans:Add a remote with `git remote add origin <url>` and push changes with `git push -u origin <branch>`.
